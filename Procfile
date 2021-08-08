@@ -1,0 +1,1 @@
+web: python manage.py migrate && gunicorn testdjangoapp01.wsgi --log-file -
