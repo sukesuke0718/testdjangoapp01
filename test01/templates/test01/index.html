@@ -5,6 +5,14 @@
     <title>My test page</title>
   </head>
   <body>
-    <h1>{{ text_sample }}</h1>
+
+    <h1>TEST</h1>
+    
+    {% for list in text_sample_lists %}
+    <ul>
+      <li>{{ list }}</li>
+    </ul>
+    {% endfor %}
+
   </body>
 </html>
