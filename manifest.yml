@@ -1,0 +1,7 @@
+ applications: 
+  - name: testdjangoapp01 
+    random-route: true
+    memory: 256M
+    buildpacks:
+     - https://github.com/cloudfoundry/python-buildpack
+     

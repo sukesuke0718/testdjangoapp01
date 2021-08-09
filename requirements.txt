@@ -1,0 +1,4 @@
+Django==3.2.6
+cloudant==2.13.0
+dj-static==0.0.6
+gunicorn==19.1.1
