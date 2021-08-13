@@ -81,26 +81,24 @@ WSGI_APPLICATION = 'testdjangoapp01.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'bludb',
-        'USER': 'wbv19004',
-        'PASSWORD': 'H95LxMsPtaDJw66D',
-        'HOST': 'ba99a9e6-d59e-4883-8fc0-d6a8c9f7a08f.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud',
-        'PORT': '31321',
-        'PCONNECT' :  True
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django_sample_db',
+        'USER': 'root',
+        'PASSWORD': 'P@ssw0rd',
+        'HOST': 'localhost',
+        'PORT': '3306'
     }
-    #'honban': {
+    #'default': {
     #    'ENGINE': 'ibm_db_django',
-    #    #'ENGINE': 'django.db.backends.sqlite3',
-    #    'NAME': 'bludb',
-    #    'USER': 'wbv19004',
-    #    'PASSWORD': 'H95LxMsPtaDJw66D',
+    #   'NAME': 'bludb',
+    #    'USER': 'jbt74483',
+    #    'PASSWORD': 'NPkz3txAenIxcQLy',
     #    'HOST': 'ba99a9e6-d59e-4883-8fc0-d6a8c9f7a08f.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud',
     #    'PORT': '31321',
     #    'PCONNECT' :  True
     #}
-}
 
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
